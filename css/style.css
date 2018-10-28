@@ -9,15 +9,10 @@ body {
 	background-image: linear-gradient(#B3D4FF, #fff);
 }
 /*header start*/
-header {
-	
-}
-
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;
-
 }
 
 .header-bg {
