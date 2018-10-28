@@ -10,7 +10,7 @@ body {
 }
 /*header start*/
 header {
-	padding-top: 10px;
+	
 }
 
 .wrapper {
@@ -21,55 +21,41 @@ header {
 }
 
 .header-bg {
+	padding: 10px 0;
 	background-color: #fff;
-	min-height: 70px;
-	overflow: hidden;
+	min-height: 65px;
 }
 
 .logo {
 	width: 25%;
 	float: left;
-	position: relative;
 	cursor: pointer;
-	min-height: 70px;
 }
 
 .logo img {
-	position: absolute;
-	top: 8px;
-	left: 0;
-}
-
-.logo h1{
-
-	position: absolute;
-	top: 14px;
-	left: 50px;
-	color: #848E9A;
-	font-weight: 500;
-
+	height: 100%;
+	width: 100%;
 }
 
 
 .menu {
 	width: 65%;
 	float: right;
-	margin-top: 16px;
 }
 
 .menu ul {
-	margin: 0;
-    padding: 0;
+	margin-top: 15px;
     float: right;
 }
 .menu ul li {
 	list-style: none;
 	float: left;
 	margin-right: 10px;
+	transition: .3s;
 }
 
 .menu ul li:hover {
-	background-color: #239B56;
+	background-color: #5B6A84;
 	border-radius: 5px;
 }
 
@@ -127,18 +113,20 @@ header {
 }
 .banner-text button {
     padding: 5px 10px;
-    background: #fff;
+    background: #514242;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
     transition: .3s;
     display: block;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #ddd;
 }
 
 .banner-text button:hover {
 	background: #3C3231;
-	color: #fff;
 }
 
 
@@ -150,19 +138,19 @@ header {
 }
 
 .services {
+	padding: 60px 0;
 	background-color: #FFFFFF;
- 	padding: 60px 0;
  	text-align: center;
  	overflow: hidden;
 }
 
 .single-service {
 	width: 30%;
-	padding: 20px 10px;
-	margin: 10px;
+	margin: 20px;
 	float: left;
 
 }
+
 
 .single-service h2 {
 	text-align: center;
@@ -172,7 +160,7 @@ header {
 }
 .single-service img {
 	width: 100%;
-	height: 170px;
+	height: 220px;
 }
 .single-service p {
 	color: #282828;
@@ -183,7 +171,7 @@ header {
 }
 .single-service button {
 	background-color: #486381;	
-	padding: 10px 15px;
+	padding: 10px 20px;
 	color: #fff;
 	font-size: 16px;
 	font-weight: 600;
@@ -253,6 +241,5 @@ header {
 	font-size: 22px;
 	color: #fff;
 }
-
 
 /*footer area end*/
