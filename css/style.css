@@ -9,6 +9,10 @@ body {
 	background-image: linear-gradient(#B3D4FF, #fff);
 }
 /*header start*/
+header {
+	margin-top: 20px;
+}
+
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
@@ -49,9 +53,8 @@ body {
 	transition: .3s;
 }
 
-.menu ul li:hover {
-	background-color: #5B6A84;
-	border-radius: 5px;
+.menu ul li a:hover {
+	
 }
 
 
@@ -68,7 +71,7 @@ body {
 }
 
 .menu ul li:hover a {
-	color: #fff;
+	color: #5B6A84;
 }
 /*header end*/
 
